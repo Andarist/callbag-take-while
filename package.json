@@ -2,10 +2,11 @@
   "name": "callbag-take-while",
   "version": "1.0.0",
   "description": "👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied.",
-  "main": "dist/callbag-take-while.js",
-  "module": "dist/callbag-take-while.esm.js",
+  "main": "./dist/callbag-take-while.cjs.js",
+  "module": "./dist/callbag-take-while.esm.js",
   "files": [
-    "dist"
+    "dist",
+    "*.d.ts"
   ],
   "scripts": {
     "test": "jest --env=node",
@@ -28,6 +29,9 @@
     "url": "https://github.com/Andarist/callbag-take-while/issues"
   },
   "homepage": "https://github.com/Andarist/callbag-take-while#readme",
+  "dependencies": {
+    "callbag": "^1.1.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-transform-modules-commonjs": "^7.2.0",
