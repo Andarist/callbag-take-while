@@ -9,7 +9,6 @@
   ],
   "scripts": {
     "test": "jest --env=node",
-    "precommit": "lint-staged",
     "prebuild": "rimraf dist",
     "build": "rollup -c",
     "preversion": "npm test",
