@@ -1,6 +1,6 @@
 {
   "name": "callbag-take-while",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied.",
   "main": "./dist/callbag-take-while.cjs.js",
   "module": "./dist/callbag-take-while.esm.js",
